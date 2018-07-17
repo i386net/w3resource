@@ -3,9 +3,9 @@
 
 import datetime
 
-c1 = datetime.date(2018, 7, 1)
-c2 = datetime.date(2018, 7, 10)
-print(c2-c1)
+#c1 = datetime.date(2018, 7, 1)
+#c2 = datetime.date(2018, 7, 10)
+#print(c2-c1)
 
 date1 = {}
 date2 = {}
