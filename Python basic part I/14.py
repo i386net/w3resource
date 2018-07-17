@@ -3,12 +3,6 @@
 
 import datetime
 
-#c1 = datetime.date(2018, 7, 1)
-#c2 = datetime.date(2018, 7, 10)
-#print(c2-c1)
-
-#date1 = {}
-#date2 = {}
 
 def enter_date():
     date_dict = {}
@@ -20,7 +14,9 @@ def enter_date():
 dd1 = enter_date()
 dd2 = enter_date()
 
-print(datetime.date(**dd1))
-print(datetime.date(**dd2))
+#print(datetime.date(**dd1)) # unpack dictionary keys
+#print(datetime.date(**dd2))
+
+# передача именованных аргументов из словаря и вычисление разницы по модулю
 delta = abs(datetime.date(**dd2) - datetime.date(**dd1))
 print('{} days'.format(delta.days))
