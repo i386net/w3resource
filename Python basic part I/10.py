@@ -1,3 +1,4 @@
+# nums sum
 num = input('Num: ')
 num2 = num*2
 num3 = num*3
