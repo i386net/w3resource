@@ -3,3 +3,8 @@
 def sumObjects(obj1, obj2):
     if type(obj1) == int and type(obj2) == int:
         return obj1 + obj2
+    else:
+        return 'Must be integers'
+
+
+print(sumObjects('a', 'b'))
