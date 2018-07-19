@@ -7,3 +7,16 @@ numbers = [
     815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
     958, 743, 527
     ]
+
+
+def print_even(lst):
+    for num in lst:
+        if num % 2 == 0:
+            print(num)
+        if num == 237:
+            print(num)
+            print('Stop')
+            break
+
+
+print_even(numbers)
