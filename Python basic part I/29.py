@@ -8,5 +8,5 @@ def get_colors(set1, set2):
 
 color_list_1 = set(["White", "Black", "Red"])
 color_list_2 = set(["Red", "Green"])
-uniq_colors = get_colors(color_list_1, color_list_2)
-print(uniq_colors)
+unique_colors = get_colors(color_list_1, color_list_2)
+print(unique_colors)
