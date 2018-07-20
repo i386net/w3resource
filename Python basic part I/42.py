@@ -3,6 +3,6 @@
 import sys
 import platform
 
-print('{} {}'.format(sys.maxsize, sys.maxsize > 2 ** 60))
+print('{} {}'.format(sys.maxsize, sys.maxsize > 2 ** 32))
 
 print(platform.architecture())
