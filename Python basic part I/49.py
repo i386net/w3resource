@@ -21,4 +21,4 @@ fl = list_files('.')
 l = max([len(k) for k in fl[1].keys()])
 
 for f,s in fl[1].items():
-    print('{:^17} size: {} bites'.format(f,s ))
+    print('{:^{width}} size: {} bites'.format(f, s, width=l ))
